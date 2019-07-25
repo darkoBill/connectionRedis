@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import utility.Utility;
 
 @RestController
-@RequestMapping("/api")
+
 @PropertySource("application.properties")
 @Service
 //@EnableCircuitBreaker
